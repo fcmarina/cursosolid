@@ -1,4 +1,4 @@
-# cursosolid
+# curso solid com php
 SOLID com php - utilizando teste phpunit
 
  SOLID são os cinco principais princípios da POO (programação orientada a objeto), que irão ajudar na implementação e organização
