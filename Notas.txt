@@ -1,0 +1,35 @@
+* TDD Test driven development 
+
+	Desenvolvimento Orientado por Teste. Cria primeiro o resultado final, depois implementa. Cada funcionalidade do sistema é testada.
+
+*Open/ Close
+
+	Aberto para expansão e fecha para modificação.
+	As classes não dependem uma da outra, como pode ser usado no padrão Strategy. Nes padrão, pode ser utilizado interfaces e classes abstratas para definir um determiinado tipo. Assim, não será nescessário criar tão ifs e o código fica bem mais limpo.
+
+* Padrão strategy
+
+	"Com o padrão “Strategy” (Estratégia) voce encapsula famílias específicas de algoritimos permitindo com que a classe cliente responsável por instanciar esse algoritimo em particular não necessite de conhecimento sobre sua implementação atual."
+
+	Link: http://br.phptherightway.com/pages/Design-Patterns.html
+
+	Utiliza uma interface em outras classe, diminuindo condições(ifs) e encapsulando código.
+
+* Single responsability
+
+	Uma classe não deve ter mais de uma responsabilidade ou propósito. 
+
+CRUD. Create, Read, Update, Delete. Cada ação deve ter uma classe, cada uma com sua responsabildade.
+
+* Dependency Inversion
+
+	Módulos de alto nível não deferiam depender de módulo de baixo nível. Ambos deveriam depender de abstrações.
+
+* Liskov Substituition (Barbara Liskov)
+	Subtipos devem ser subtituiveis pelos  seus tipo base.
+	Ex.: Um quadrado é um tipo de retângulo, mas não pode ser substituído pelo retângulo, ele quebra o princípio de Liscov.
+
+
+* Interface Segregation
+	Nenhum cliente deve ser obrigado a depender  de métodos que ele não use.
+	Ex.: Passaro (Andorinha, Pinguim) andar, nadar, voar
