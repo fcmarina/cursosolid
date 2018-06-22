@@ -8,6 +8,8 @@ SOLID com php - utilizando teste phpunit
 
     - Single responsibility principle (Princípio da responsabilidade única).
     - Open/closed principle (Princípio aberto/fechado).
+       Aberto para expansão e fechado para mdificação. Pode usado uma interface, ou classes
+       abstratas. 
     - Liskov substitution principle (Princípio da substituição de Liskov).
     - Interface segregation principle (Princípio da segregação da interface).
     - Dependency inversion principle (Princípio da inversão da dependência).
