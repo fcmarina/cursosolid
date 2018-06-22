@@ -9,9 +9,15 @@ namespace fcmarina\Solid;
  */
 class Html  
 {
-	
-	public function img(string $src){
-		return '<img src="'.$src.'">';
+
+	/*
+	* Metodo mágico
+	*/
+	public function __call(string $metodo, array $arguments)
+	{
+		$class = '\fcmarina\Solid\Tag\\' . ucfirst($metodo);
+
+		return call_user_func_array([new $class, 'render'], $arguments);
 
 	}
 }
